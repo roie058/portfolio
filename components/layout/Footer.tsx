@@ -10,6 +10,7 @@ import {
   FaRegEnvelope,
   FaPhone,
 } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
@@ -19,55 +20,59 @@ const Footer: React.FC = () => {
           <h4 className={styles.footer_h}>Social media</h4>
           <div className={styles.social_icons}>
             <div className={styles.col}>
-              <a href="https://www.facebook.com/profile.php?id=100000664470842">
+              <Link href="https://www.facebook.com/profile.php?id=100000664470842">
                 <FaFacebook
                   className={`fa-brands fa-facebook ${styles.icon2}`}
                   size={32}
                 ></FaFacebook>
-              </a>
-              <a href="www.linkedin.com/in/roie_lebovich">
+              </Link>
+              <Link href="www.linkedin.com/in/roie_lebovich">
                 <FaLinkedinIn
                   className={`fa-brands fa-linkedin-in ${styles.icon2}`}
                   size={32}
                 ></FaLinkedinIn>
-              </a>
+              </Link>
             </div>
             <div className={styles.col}>
-              <a href="https://www.instagram.com/roie_leb/">
+              <Link href="https://www.instagram.com/roie_leb/">
                 <FaInstagram
                   className={`fa-brands fa-instagram ${styles.icon2}`}
                   size={32}
                 ></FaInstagram>
-              </a>
-              <a href="https://wa.me/0586666848">
+              </Link>
+              <Link href="https://wa.me/0586666848">
                 <FaWhatsapp
                   className={`fa-brands fa-whatsapp ${styles.icon2}`}
                   size={32}
                 ></FaWhatsapp>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
         <div className={styles.sitemap}>
           <h4 className={styles.footer_h}>Sitemap</h4>
-          <a href="/">home</a>
-          <a href="/projects">projects</a>
-          <a href="/tech-stack">tech use</a>
+          <Link href="/">home</Link>
+          <Link href="/projects">projects</Link>
+          <Link href="/tech-stack">tech use</Link>
          
         </div>
         <div className={styles.contacts}>
           <h4 className={styles.footer_h}>Contacts</h4>
-          <a href="email:roie058@gmail.com">
+          <Link href="email:roie058@gmail.com" >
+            <div>
             <FaRegEnvelope
               className={`fa-regular fa-envelope`}
               size={32}
             ></FaRegEnvelope>
             <div>roie058@gmail.com</div>
-          </a>
-          <a href="tel:0586666848">
+            </div>
+          </Link>
+          <Link href="tel:0586666848">
+            <div>
             <FaPhone className={`fa-solid fa-phone`} size={32}></FaPhone>
             <div>058-6666-848</div>
-          </a>
+            </div>
+          </Link>
         </div>
       </footer>
     </Fragment>

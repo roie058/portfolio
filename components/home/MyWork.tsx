@@ -1,6 +1,10 @@
+import Image from "next/image";
+import Link from "next/link";
 import React, { Fragment } from "react";
 import Button from "../UI/Button";
 import Card from "../UI/Card";
+
+
 
 import styles from "./MyWork.module.css";
 
@@ -9,11 +13,13 @@ const MyWork: React.FC = () => {
     <Fragment>
       <section>
         <article className={styles.work}>
+          
           <img
-            className={styles.about_image}
+className={styles.about_image}
             src="/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg"
             alt="picture of computer"
           />
+          
           <Card header="about my work">
             <p className={styles.card_text}>
               Create <span className={styles.blue}>Interactive </span>{" "}
@@ -26,11 +32,11 @@ const MyWork: React.FC = () => {
               <span className={styles.purple}>scalable</span> Backend to store
               and present relevent data
             </p>
-            <a href="/tech-stack">
+            <Link href="/tech-stack">
             <Button type="purple_btn" size="m">
               Learn more
             </Button>
-            </a>
+            </Link>
           </Card>
         </article>
       </section>
