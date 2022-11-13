@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import StackCard from "../components/techUse/StackCard";
 import Button from "../components/UI/Button";
 import styles from "../styles/tech-stack.module.css";
@@ -63,9 +64,11 @@ const TechStack: NextPage = () => {
           },
         ]}
       />
+      <Link href={'/projects'}>
       <Button type="demo_btn" size="m">
         Projects & More
       </Button>
+      </Link>
     </div>
   );
 };
