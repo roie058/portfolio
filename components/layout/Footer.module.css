@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   flex-direction: column;
   background: #c84c4c;
   color: white;
