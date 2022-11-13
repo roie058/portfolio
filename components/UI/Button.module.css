@@ -1,0 +1,61 @@
+.btn {
+  border: transparent;
+  border-radius: 10px;
+  font-weight: 400;
+  text-align: center;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.s {
+  width: 100px;
+  padding: 1%;
+  margin: 1.5%;
+  font-size: 1rem;
+}
+
+.m {
+  width: 200px;
+  padding: 1%;
+  margin: 3%;
+  font-size: 2rem;
+}
+
+.l {
+  width: 300px;
+  padding: 1%;
+  margin: 3.5%;
+  font-size: 2.5rem;
+}
+
+.xl {
+  width: 400px;
+  padding: 1%;
+  margin: 4%;
+  font-size: 3rem;
+}
+
+.purple_btn {
+  color: white;
+  background-color: #3f2ac5;
+}
+
+.demo_btn {
+  color: white;
+  background-color: #ea5454;
+  align-self: center;
+  width: 280px;
+}
+
+@media only screen and (min-width: 900px) {
+  .demo_btn {
+    color: white;
+    background-color: #ea5454;
+    width: 30%;
+    align-self: center;
+  }
+}

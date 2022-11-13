@@ -1,0 +1,37 @@
+.social {
+  position: relative;
+  height: 33vh;
+}
+.social_circle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 33vh;
+  background: #ea5454;
+  clip-path: circle(20% at 95% 110%);
+}
+
+.social_container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  width: 100%;
+  bottom: 5%;
+}
+
+.social_container a {
+  color: #7a7a7a;
+  padding: 1%;
+}
+
+.icon {
+  padding-top: 30%;
+  transition: padding-top 0.4s ease;
+}
+
+.icon:hover {
+  padding-top: 0%;
+}

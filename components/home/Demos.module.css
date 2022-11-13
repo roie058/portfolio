@@ -1,0 +1,47 @@
+.demos {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+}
+.demos h2 {
+  width: 100%;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0;
+}
+
+.demos_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.demos_text {
+  font-size: 2rem;
+  color: #ce5e5e;
+}
+.demos_present {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3% 0;
+}
+
+@media only screen and (min-width: 1250px) {
+  .demos_present {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  .demos h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1073px) {
+  .demos h2 {
+    font-size: 3rem;
+  }
+}
