@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <React.Fragment>
       <Head>
-        <title> roie's portfolio</title>
+        <title> roies portfolio</title>
         <meta name="description" content="roie leibovich portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

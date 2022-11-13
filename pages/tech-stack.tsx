@@ -8,7 +8,7 @@ const TechStack: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>roie's portfolio</title>
+        <title>roies portfolio</title>
         <meta name="description" content="roie leibovich portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
