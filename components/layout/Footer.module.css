@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  
   flex-direction: column;
   background: #c84c4c;
   color: white;
@@ -22,7 +22,7 @@
   justify-content: space-evenly;
 }
 
-.contacts a {
+.contacts_a {
   display: flex;
   align-items: center;
   justify-content: center;

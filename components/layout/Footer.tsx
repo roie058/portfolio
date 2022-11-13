@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
         <div className={styles.contacts}>
           <h4 className={styles.footer_h}>Contacts</h4>
           <Link href="email:roie058@gmail.com" >
-            <div>
+            <div className={styles.contacts_a}>
             <FaRegEnvelope
               className={`fa-regular fa-envelope`}
               size={32}
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
             </div>
           </Link>
           <Link href="tel:0586666848">
-            <div>
+            <div className={styles.contacts_a}>
             <FaPhone className={`fa-solid fa-phone`} size={32}></FaPhone>
             <div>058-6666-848</div>
             </div>
