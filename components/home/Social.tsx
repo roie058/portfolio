@@ -19,7 +19,7 @@ const Social: React.FC = () => {
             size={56}
           ></FaFacebook>
         </a>
-        <a href="www.linkedin.com/in/roie_lebovich">
+        <a href="https://www.linkedin.com/in/roie-lebovich">
           <FaLinkedinIn
             className={`fa-brands fa-linkedin-in ${styles.icon}`}
             size={56}

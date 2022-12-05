@@ -32,7 +32,7 @@ const Projects: NextPage = () => {
             img: "/images/foodster.png",
             id: "foodster",
             text: "discover restaurants around you add restaurants and rate others including claster map reviews and authentication",
-           link:'https://foodster-il.herokuapp.com/',
+           link:'https://foodster-il.onrender.com/',
             sub: "node.js, ejs, express.js, mongoDb ",
           },
           {

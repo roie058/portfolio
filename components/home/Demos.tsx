@@ -30,7 +30,7 @@ const Demos: React.FC = () => {
               img="/images/retail.png"
             />
             <DemoCard
-              link="https://foodster-il.herokuapp.com/"
+              link="https://foodster-il.onrender.com/"
               alt="foodster"
               demoName="Foodster app"
               img="/images/foodster.png"
